@@ -19,16 +19,14 @@ header.container{
     justify-content: space-between;
     align-items: center;
 
-    height: 100px;
+    height: 160px;
 }
 
-.logo{
-    padding: 5px;
-    font-size: 2em;
-    font-weight: bold;
-    color: var(--cor-font-pricipal);
-}
+header img{
 
+    object-fit: contain;
+    object-position: center;
+}
 nav.menu ul{
     display: flex;
     padding: 10px;
@@ -40,7 +38,7 @@ nav.menu a{
     color: var(--cor-font-pricipal);
     text-decoration: none;
     margin-inline: 15px;
-    font-size: 1.3em;
+    font-size: 1.8em;
     transition: color 0.5s;
 }
 
@@ -51,4 +49,11 @@ nav.menu a:hover{
 
 nav.menu i{
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 700px) {
+    
+    nav.menu a{
+        font-size: 1em;
+    }
 }
