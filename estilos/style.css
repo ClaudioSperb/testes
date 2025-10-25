@@ -19,7 +19,11 @@ header.container{
     justify-content: space-between;
     align-items: center;
 
-    height: 160px;
+    height: 100px;
+}
+
+header h1 {
+    color: var(--cor-font-pricipal);
 }
 
 header img{
@@ -38,7 +42,7 @@ nav.menu a{
     color: var(--cor-font-pricipal);
     text-decoration: none;
     margin-inline: 15px;
-    font-size: 1.8em;
+    font-size: 1.5em;
     transition: color 0.5s;
 }
 
@@ -49,6 +53,55 @@ nav.menu a:hover{
 
 nav.menu i{
     font-size: 1.5em;
+}
+
+main{
+    width: 100%;
+}
+
+#principal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+
+#secundario{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+div{
+    background-color: var(--cor-font-pricipal);
+    padding: 10px;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.301);
+    margin-inline: 5px;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+p{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
+}
+
+
+
+footer{
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: #22577a;
+    color: white;
 }
 
 @media screen and (max-width: 700px) {
