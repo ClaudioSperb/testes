@@ -62,9 +62,11 @@ main{
 #principal{
     margin-top: 10px;
     margin-bottom: 10px;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
     
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 150px;
     grid-template-rows: 1fr;
     gap: 5px;
 }
